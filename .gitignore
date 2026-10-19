@@ -1,1 +1,56 @@
+# ---------------------------------------------------------------
+# Ejecutables y archivos de compilacion (g++ / MinGW / MSVC cl.exe)
+# ---------------------------------------------------------------
+*.exe
+*.out
+*.o
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.pch
+*.ipch
+*.lib
+*.exp
+*.dll
+*.manifest
+*.tlog
+*.lastbuildstate
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+
+# Ejecutables sin extension (Linux / macOS)
+/AlgoritmoGenetico
+/PSO
+/al
+/src/AlgoritmoGenetico
+/src/PSO
+
+# ---------------------------------------------------------------
+# Editores / IDE  (solo se comparte .vscode/tasks.json)
+# ---------------------------------------------------------------
+.vscode/*
+!.vscode/tasks.json
+.vs/
+.idea/
+*.code-workspace
+.history/
+*.swp
+*~
+
+# ---------------------------------------------------------------
+# Sistema operativo y temporales
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+~$*
+
+# Borrador local (ya estaba ignorado)
 /ReinasGenetico.cpp
